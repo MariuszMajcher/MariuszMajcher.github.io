@@ -1,0 +1,41 @@
+tml, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+h1 {
+    color:cadetblue
+}
+h4 {
+    color:cornflowerblue
+}
+h1, h4 {
+    text-align: center;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+table {
+    border:solid 3px #026e8f;
+    width: 700px;
+}
+
+
+
+td {
+    background-color: azure;
+}
+thead {
+    background-color: bisque;
+}
+
+td.tag {
+    text-align: center;
+    font-size: 0.8em;
+}
